@@ -12,6 +12,8 @@
 
     <h2>Sistema ABC</h2>
 
+    <a href='menu.php'>Voltar ao menu</a>
+
     <h4>Listagem de usuários</h4>
 
     <?php
@@ -39,7 +41,7 @@
                 <td><?php echo $linha[0] ?></td>
                 <td><?php echo $linha[1] ?></td>
                 <td><?php echo $linha[3] ?></td>
-                <td><input type="button" onclick="location.href='editar.php';" value="Editar" /><input type="button" onclick="location.href='excluir.php';" value="Excluir" /></td>
+                <td><input type="button" onclick="location.href='editar.php?id=<?php echo $linha[0];?>'" value="Editar" /><input type="button" onclick="location.href='excluir.php?id=<?php echo $linha[0];?>';" value="Excluir" /></td>
             </tr>
         <?php
         }

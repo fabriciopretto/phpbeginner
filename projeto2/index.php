@@ -26,7 +26,7 @@
             <input type="text" id="usuario" name="usuario" placeholder="usuário"><br>
             <br>
             <!-- <label for="senha">Senha</label><br> -->
-            <input type="text" id="senha" name="senha" placeholder="senha">
+            <input type="password" id="senha" name="senha" placeholder="senha">
 
             <br>
             <br>

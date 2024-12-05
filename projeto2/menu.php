@@ -1,3 +1,7 @@
+<?php
+session_start();
+session_destroy();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,12 +17,9 @@
     <h2>Sistema ABC</h2>
 
     <h4>Menu</h4>
-    
-    <a href='listarUsuarios.php'>Listar usuários</a> <br>
-    <a href='#'>Cadastrar usuários</a> <br>
-    <a href='#'>Editar usuários</a> <br>
-    <a href='#'>Excluir usuários</a>
 
+    <a href='listarUsuarios.php'>Listar usuários</a> <br>
+    <a href='cadastrarUsuarios.php'>Cadastrar usuários</a> <br>
 </body>
 
 </html>
