@@ -12,6 +12,7 @@
             text-align: center;
         }
     </style>
+
 </head>
 
 <body>
@@ -21,6 +22,8 @@
         <h3>Bem-vindo ao sistema ABC</h3>
 
         <h5>Autenticação</h5>
+
+
         <form name="login" method="post" action="login.php">
             <!-- <label for="usuario">Usuário</label><br> -->
             <input type="text" id="usuario" name="usuario" placeholder="usuário"><br>
@@ -32,7 +35,10 @@
             <br>
             <input type="submit" value="Acessar">
         </form>
+
     </div>
+
+
 </body>
 
 </html>
